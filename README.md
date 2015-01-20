@@ -1,5 +1,5 @@
 iCal2FullCalendar
-=======
+=================
 
 iCal2FullCalendar uses FullCalendar to render events created through
 the iCalendar software. Simply export the calendar data as .ics/.ical
@@ -7,15 +7,15 @@ file and use the ics-convert.py python script to convert the .ics file
 into a .json file. The conversion does NOT work for repeating event.
 
 Dependencies:
-======
+=============
 
-`pytz`_ , and `icalendar`_
+`pytz`, and `icalendar`
+
 Python 2.6, 2.7 and 3.3+
 
 Usage:
 ======
 The script uses the follow iCalendar labels to format the .json file:
----------------------------------------------------------------------
 
 ```html
 (Required) TITLE:       Stores the title of the event.
@@ -26,9 +26,11 @@ The script uses the follow iCalendar labels to format the .json file:
 ```
 
 1. Create the calendar and save it as an .ical/.ics filel
-2. Run "python ics-convert.py [input] (output)" on the .ical/.ics file.
+2. Run "python ics-convert.py input output" on the .ical/.ics file.
 
 Changelog:
 ==========
 
+```html
 1.0.0 - Public Release 
+```
